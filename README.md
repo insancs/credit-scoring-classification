@@ -106,8 +106,8 @@ Setelah dilakukan tuning hyperparameters, didapatkan performa pada model :
         weighted avg   0.94      0.94      0.94      1788
 
 ### Feature Importance
-<p align="center">
-    <img src="feature importance.png" width="600" height="500">
+<p align="left">
+    <img src="feature importance.png" width="500" height="300">
 </p>
 
 
