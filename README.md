@@ -89,13 +89,10 @@ Model ExtraTreesClassifier memiliki performa terbaik dengan akurasi, precision, 
 Setelah dilakukan tuning hyperparameters, didapatkan performa pada model :
 ### Confusion Matrix 
 
-+-------+--------+--------+
-|       | pred 0 | pred 1 |
-+-------+--------+--------+
-| act 0 |   1370 |     19 |
-+-------+--------+--------+
-| act 1 |     85 |    314 |
-+-------+--------+--------+
+|       	| pred 0 	| pred 1 	|
+|------:	|-------:	|-------:	|
+| act 0 	|   1370 	|     19 	|
+| act 1 	|     85 	|    314 	|
 
 ### Classification Report 
 
