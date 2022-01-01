@@ -10,6 +10,7 @@ Departemen kredit konsumen sebuah bank ingin mengotomatisasi proses pengambilan 
 
 ### Dataset
 Dataset Ekuitas Rumah (HMEQ) berisi informasi dasar dan kinerja pinjaman untuk 5.960 pinjaman ekuitas rumah baru-baru ini. Target (BAD) adalah variabel biner yang menunjukkan apakah pelamar akhirnya gagal atau benar-benar tunggakan. Hasil buruk ini terjadi pada 1.189 kasus (20%). Untuk setiap pelamar, 12 variabel input dicatat.
+Dataset berasal dari Kaggle yang bisa dilihat [disini](https://www.kaggle.com/ajay1735/hmeq-data/code).
 
 ### Goals
 Memprediksi apakah seseorang akan gagal membayar pinjaman atau tidak, berdasarkan atribut yang diberikan.
