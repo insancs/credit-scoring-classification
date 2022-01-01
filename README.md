@@ -1,6 +1,7 @@
 <h1 align="center"> Credit Scoring Classification </h1>
-
-<img align='right' src="https://miro.medium.com/max/1400/1*BIZJkKcNp8U0XBf8UX34bQ.png" width="100px" height="500px">
+<p align="center">
+    <img src="https://miro.medium.com/max/1400/1*BIZJkKcNp8U0XBf8UX34bQ.png" width="700" height="500">
+</p>
 
 ## Problem Statement
 
