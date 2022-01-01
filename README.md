@@ -107,7 +107,7 @@ Setelah dilakukan tuning hyperparameters, didapatkan performa pada model :
 
 ### Feature Importance
 <p align="left">
-    <img src="feature importance.png" width="500" height="300">
+    <img src="feature importance.png" width="700" height="500">
 </p>
 
 
