@@ -1,6 +1,6 @@
 <h1 align="center"> Credit Scoring Classification </h1>
 <p align="center">
-    <img src="https://miro.medium.com/max/1400/1*BIZJkKcNp8U0XBf8UX34bQ.png" width="700" height="500">
+    <img src="https://miro.medium.com/max/1400/1*BIZJkKcNp8U0XBf8UX34bQ.png" width="900" height="400">
 </p>
 
 ## Problem Statement
@@ -29,4 +29,11 @@ Memprediksi apakah seseorang akan gagal membayar pinjaman atau tidak, berdasarka
 - CLNO: Jumlah jalur kredit
 - DEBTINC: Rasio utang terhadap pendapatan{Rasio-Skala Numerik}
 
-## 
+## Sample Dataset
+| BAD 	| LOAN 	| MORTDUE  	| VALUE    	| REASON  	| JOB     	| YOJ  	| DEROG 	| DELINQ 	| CLAGE        	| NINQ 	| CLNO 	| DEBTINC      	|
+|-----	|------	|----------	|----------	|---------	|---------	|------	|-------	|--------	|--------------	|------	|------	|--------------	|
+| 1   	| 1100 	| 25860    	| 39025    	| HomeImp 	| Other   	| 10.5 	| 0     	| 0      	| 94.366666667 	| 1    	| 9    	|              	|
+| 1   	| 1300 	| 70053    	| 68400    	| HomeImp 	| Other   	| 7    	| 0     	| 2      	| 121.83333333 	| 0    	| 14   	|              	|
+| 1   	| 1500 	| 13500    	| 16700    	| HomeImp 	| Other   	| 4    	| 0     	| 0      	| 149.46666667 	| 1    	| 10   	|              	|
+| 0   	| 1700 	| 97800    	| 112000   	| HomeImp 	| Office  	| 3    	| 0     	| 0      	| 93.333333333 	| 0    	| 14   	|              	|
+| 1   	| 1700 	| 30548    	| 40320    	| HomeImp 	| Other   	| 9    	| 0     	| 0      	| 101.46600191 	| 1    	| 8    	| 37.113613558 	|
