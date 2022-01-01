@@ -43,30 +43,30 @@ Memprediksi apakah seseorang akan gagal membayar pinjaman atau tidak, berdasarka
 Pada project ini terdapat beberapa tahapan yang dilakukan, yaitu :
 1. Import Libraries
 2. Data Exploration
-- Load Dataset
-- Data Information
-- Statistics Description
-- Check Missing Values
-- Check Duplicated Data
+    - Load Dataset
+    - Data Information
+    - Statistics Description
+    - Check Missing Values
+    - Check Duplicated Data
 3. Data Cleansing
-- Check Cardinality
-- Handling Missing Values
-- Handling Outliers
-- Data Type Transformation
+    - Check Cardinality
+    - Handling Missing Values
+    - Handling Outliers
+    - Data Type Transformation
 4. Exploratory Data Analysis
 5. Feature Engineering
-- Feature Encoding
-- Feature Scaling
+    - Feature Encoding
+    - Feature Scaling
 6. Sampling Data
-- Separate Train and Test Set
-- Imbalanced Class
+    - Separate Train and Test Set
+    - Imbalanced Class
 7. Modelling
-- Choose Best Classifier
-- Tuning Hyperparameters
+    - Choose Best Classifier
+    - Tuning Hyperparameters
 8. Model Performance Evaluation
-- Confusion Matrix
-- Classification Report
-- Feature Importance
+    - Confusion Matrix
+    - Classification Report
+    - Feature Importance
 9. Save Model
 
 ## Model Performance 
@@ -89,14 +89,17 @@ Model ExtraTreesClassifier memiliki performa terbaik dengan akurasi, precision, 
 Setelah dilakukan tuning hyperparameters, didapatkan performa pada model :
 ### Confusion Matrix 
 
-|   	| pred 0 	| pred 1 	|
-|--:	|-------:	|-------:	|
-| 0 	|  act 0 	|   1370 	|
-| 1 	|  act 1 	|     85 	|
++-------+--------+--------+
+|       | pred 0 | pred 1 |
++-------+--------+--------+
+| act 0 |   1370 |     19 |
++-------+--------+--------+
+| act 1 |     85 |    314 |
++-------+--------+--------+
 
 ### Classification Report 
 
-            precision    recall  f1-score   support
+                  precision    recall  f1-score   support
 
                0       0.94      0.99      0.96      1389
                1       0.94      0.79      0.86       399
