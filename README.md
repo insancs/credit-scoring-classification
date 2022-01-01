@@ -88,21 +88,22 @@ Model ExtraTreesClassifier memiliki performa terbaik dengan akurasi, precision, 
 
 Setelah dilakukan tuning hyperparameters, didapatkan performa pada model :
 1. Confusion Matrix 
+
 |   	| pred 0 	| pred 1 	|
 |--:	|-------:	|-------:	|
 | 0 	|  act 0 	|   1370 	|
 | 1 	|  act 1 	|     85 	|
 
 2. Classification Report 
-3. 
-precision    recall  f1-score   support
 
-           0       0.94      0.99      0.96      1389
-           1       0.94      0.79      0.86       399
+            precision    recall  f1-score   support
 
-    accuracy                           0.94      1788
-   macro avg       0.94      0.89      0.91      1788
-weighted avg       0.94      0.94      0.94      1788
+               0       0.94      0.99      0.96      1389
+               1       0.94      0.79      0.86       399
+
+        accuracy                           0.94      1788
+        macro avg      0.94      0.89      0.91      1788
+        weighted avg   0.94      0.94      0.94      1788
 
 3. Feature Importance
 
