@@ -87,14 +87,14 @@ Pada tahap ini dilakukan uji coba pada beberapa model klasifikasi, lalu dibandin
 Model ExtraTreesClassifier memiliki performa terbaik dengan akurasi, precision, recall, dan f1-score tertinggi. Maka model ini yang akan dilakukan tuning hyperparameters.
 
 Setelah dilakukan tuning hyperparameters, didapatkan performa pada model :
-1. Confusion Matrix 
+### Confusion Matrix 
 
 |   	| pred 0 	| pred 1 	|
 |--:	|-------:	|-------:	|
 | 0 	|  act 0 	|   1370 	|
 | 1 	|  act 1 	|     85 	|
 
-2. Classification Report 
+### Classification Report 
 
             precision    recall  f1-score   support
 
@@ -105,7 +105,7 @@ Setelah dilakukan tuning hyperparameters, didapatkan performa pada model :
         macro avg      0.94      0.89      0.91      1788
         weighted avg   0.94      0.94      0.94      1788
 
-3. Feature Importance
+### Feature Importance
 <p align="center">
     <img src="feature importance.png" width="600" height="500">
 </p>
