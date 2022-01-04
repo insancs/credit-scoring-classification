@@ -120,6 +120,6 @@ Setelah dilakukan tuning hyperparameters, didapatkan performa pada model :
 - Jumlah laporan penghinaan utama, jumlah kredit menunggak cukup tinggi memiliki korelasi positif yang cukup tinggi pada faktor kegagalan pemohon membayar. Karena secara umum semakin banyak kredit mengunggak maka semakin sulit juga untuk membayar.
 
 ### Model Performance
-- Pada hasil percobaan didapatkan bahwa model Extra Tree Classifier memiliki performa terbaik dari beberapa model yang digunakan, dengan akurasi mencapai 94%.
+- Pada hasil percobaan didapatkan bahwa model Extra Tree Classifier memiliki performa terbaik dari beberapa model yang digunakan, dengan akurasi mencapai 93.79%.
 - Dilakukan tuning hyperparameter untuk memilih parameter terbaik yang akan digunakan dalam training model.
 - Dari hasil confusion matrix didapatkan TP dan TN yang tinggi, maka bisa di katakan model dapat mengklasifikasi dengan cukup baik dengan akurasi mencapai 94%. 
